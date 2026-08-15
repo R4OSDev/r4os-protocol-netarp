@@ -1,0 +1,18 @@
+# R4OS 0.58.35 protocol project manifest.
+R4OS_MODULE_MANIFEST=2
+KIND=R4P
+NAME=NETARP
+VERSION=0.1.1
+LANGUAGE=Zig
+SOURCE=src/main.zig
+TARGET=/R4OS/PROTOCOLS/NETARP.R4P
+IMAGE_SCOPE=slim
+IMPORT=R4DEV:Query:1
+META=r4p.name=NETARP
+META=r4p.role=net.arp
+META=r4p.category=net
+META=module.name=R4P_NETARP
+META=r4p.dep=net.ethernet
+META=description=ARP parser and request builder
+META=feature=dispatch
+META=dependency=net.ethernet

@@ -6,14 +6,14 @@ Projektstruktur seit 0.51.22
 
 Dieses Verzeichnis ist ein eigenstaendiges R4OS-SDK-Projekt fuer NETARP.R4P.
 
-Build:
+Build im jeweiligen Repository:
 
-    cd Code\System\Protocols\NetArp
-    ..\..\..\DevTools\Zig\zig.exe build
+    Build.bat       (Windows)
+    ./Build.sh      (Linux)
 
-Artefakt:
+Standardziel im Workspace, ueber ARTIFACTS_ROOT in Settings.R4S:
 
-    zig-out\NETARP.R4P
+    Artifacts/Modules/NetArp/NETARP.R4P
 
 Manifest:
 
